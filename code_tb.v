@@ -27,7 +27,7 @@ begin
 end
 initial
 begin
-    $dumpfile("0408.vcd");
+    $dumpfile("code.vcd");
     $dumpvars(0, voter_1);
 end
 endmodule
